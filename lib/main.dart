@@ -8,11 +8,13 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
+    int days = 30;
+    String teacher = "Nakul Sharma";
     return MaterialApp(
       home: Material(
           child: Center(
         child: Container(
-          child: const Text("Welcome to Flutter in 30 days by Nakul Sharma."),
+          child: Text("Welcome to Flutter in $days days by $teacher"),
         ),
       )),
     );
