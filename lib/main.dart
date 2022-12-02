@@ -10,8 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Material(
-          child: Container(
-        child: const Text("Welcome to Flutter in 30 days."),
+          child: Center(
+        child: Container(
+          child: const Text("Welcome to Flutter in 30 days by Nakul Sharma."),
+        ),
       )),
     );
   }
